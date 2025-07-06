@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin: 20px;
+  font-size: 40px;
+}
+
+h1 {
+  color: hsl(225, 86%, 17%);
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 180%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+hr {
+  border: hsl(4, 80%, 34%) solid 5px;
+}
+
+h2 {
+  font-size: 30px;
+  color: hsl(225, 86%, 17%);
+  padding: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.divider {
+  border: black dotted 1px;
+}
+
+.skills ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+.skills li {
+    background-color: hsl(9, 5%, 28%);
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+}
+
+
+/* FOOTER */
+
+.contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.contact a {
+  text-decoration: none;
+  color: hsl(225, 86%, 17%);
+}
