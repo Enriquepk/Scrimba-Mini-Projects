@@ -1,0 +1,38 @@
+.main {
+    margin-top: 100px;
+
+}
+
+.img-google {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    line-height: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border: 1px solid hsl(0, 2%, 46%);
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    border: 1px solid hsl(0, 2%, 46%);
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: hsl(0, 2%, 69%);
+    margin-right: 10px;
+    margin-left: 10px;
+}
