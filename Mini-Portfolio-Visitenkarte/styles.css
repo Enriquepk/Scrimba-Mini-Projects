@@ -1,0 +1,47 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.card {
+  background: #caf0f8;
+  border-radius: 20px;
+  height: 440px;
+}
+
+.img-me {
+  width: 150px;
+}
+
+
+.info-container {
+  list-style-position: inside;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+}
+
+.info-container li {
+    margin: 5px auto;
+}
+
+hr {
+    width: 80%;
+    border: 2px solid #ade8f4;
+}
+
+.link-git {
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #ade8f4;
+    padding: 10px 5px;
+    border-radius: 20px;
+    color: black;
+    border: 1px solid #48cae4;
+}
+
+.link-git:hover {
+    font-size: 20px;
+}
