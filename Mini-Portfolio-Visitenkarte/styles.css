@@ -4,10 +4,17 @@
   text-align: center;
 }
 
+body {
+  background-color: #f1faff;
+  margin: 0;
+  padding: 50px;
+}
+
 .card {
   background: #caf0f8;
   border-radius: 20px;
   height: 440px;
+  width: 600px;
 }
 
 .img-me {
@@ -40,8 +47,10 @@ hr {
     border-radius: 20px;
     color: black;
     border: 1px solid #48cae4;
+    transition: transform 0.2s ease;
 }
 
 .link-git:hover {
     font-size: 20px;
+    transform: scale(1.1);
 }
