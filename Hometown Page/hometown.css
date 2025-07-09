@@ -1,8 +1,9 @@
 body {
-    background-color: rgb(181, 181, 177);
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
+  background-color: rgb(181, 181, 177);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero {
@@ -15,22 +16,120 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 0;
 }
 
 .hero-text {
-    color: white;
-    padding: 3px 10px;
-    border-radius: 10px;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 10px;
+  font-weight: 700;
+  text-shadow: 0 0 1px black;
 }
 
 #hero-header {
-    background-color: #1D3557;
-    font-family: Arial;
-    margin-bottom: 0;
+  background-color: #1d3557;
+  font-family: Arial;
+  margin-bottom: 0;
 }
 
 #hero-p {
-    background-color: #457B9D;
-    margin-top: 10px;
+  background-color: #457b9d;
+  margin-top: 10px;
+  font-size: 19px;
 }
 
+.activity-section {
+  background-color: #f1faee82;
+  height: 343px;
+  width: 720px;
+  margin-top: 0;
+}
+
+main {
+  color: #1d3557;
+}
+
+#activity-head {
+  margin-top: 0;
+  text-align: center;
+  padding-top:30px;
+}
+
+.activity-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.activity-place {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.activity-info {
+    font-size: 16px;
+    text-align: center;
+}
+
+.activity-move {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.activity-park {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.activity-football {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+#activity-info-football {
+    margin-top: 0;
+}
+
+/*FOOTER*/
+
+
+.guide-section {
+    background-color: #FFFFFF;
+    width: 720px;
+    height: 394px;
+    color: #1d3557;
+}
+
+.guide-card {
+    background-color: #437071a5;
+    width: 400px;
+    height: 294px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 0 #1d3557;
+    display: flex;
+    align-items: center;
+}
+
+#img-me {
+    width: 180px;
+    border-radius: 10px;
+    border: 3px solid #1d3557;
+    margin: 0 10px;
+}
+
+#guide-text {
+    text-align: center;
+    margin-right: 10px;
+}
+
+#guide-info {
+    font-style: italic;
+}
