@@ -75,3 +75,23 @@ body {
     margin-bottom: 69px;
     
 }
+
+#reset-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 45px;
+    width: 60px;
+    background-color: #1B244A;
+    border: 3px solid #9AABD8;
+    border-radius: 3px;
+    color: #EEEEEE;
+    font-size: 15px;
+    padding: 25px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset-container {
+    display: flex;
+    align-items: center;
+}

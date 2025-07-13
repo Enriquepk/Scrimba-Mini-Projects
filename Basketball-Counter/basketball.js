@@ -32,3 +32,11 @@ function increment3guest() {
     countGuest +=  3
     countElGuest.textContent = countGuest
 }
+
+function resetscore() {
+    countElHome.textContent = 0
+    countHome = 0
+    countElGuest.textContent = 0
+    countGuest = 0
+}
+
