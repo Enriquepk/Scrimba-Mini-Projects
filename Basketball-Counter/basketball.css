@@ -68,6 +68,10 @@ body {
     margin-left: 10px;
 }
 
+.border-num:hover {
+    background-color: #1a1f36;
+}
+
 .border-con {
     margin-top: 26px;
     display: flex;
@@ -94,4 +98,8 @@ body {
 .reset-container {
     display: flex;
     align-items: center;
+}
+
+#reset-btn:hover {
+    background-color: #1a1f36;
 }
