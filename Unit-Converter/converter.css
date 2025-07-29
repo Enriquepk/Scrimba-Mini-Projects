@@ -30,12 +30,20 @@ body {
 }
 
 #number {
+    background-color: #6943FF;
+    border: none;
+    width: 100px;
+    text-align: center;
     font-size: 58px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5px 0 0;
-    font-weight: bold;
+    color: #FFFFFF;
+    display: block;
+    margin: 5px auto;
+}
+
+#number::placeholder {
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #convert-btn {
